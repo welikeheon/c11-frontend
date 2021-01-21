@@ -16,10 +16,6 @@ export default function Home() {
           <ShortenerForm />
         </Container>
       </Jumbotron>
-      <div className={styles.Leading_intro}>
-        <h3 className={classnames[{'text-center': true}]}>왜 많은 사람들이 C11.kr 을 사용할까요?</h3>
-
-      </div>
     </Layout>
   )
 }

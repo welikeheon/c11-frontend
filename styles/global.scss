@@ -1,1 +1,12 @@
-@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+}

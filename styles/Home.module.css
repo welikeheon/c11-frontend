@@ -1,8 +1,0 @@
-.Main {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("/main/logo_background.jpg") center center;
-    background-size: cover;
-}
-
-.Leading_intro {
-    /* margin-top: -4em; */
-}

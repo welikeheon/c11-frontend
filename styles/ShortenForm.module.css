@@ -1,18 +1,22 @@
 /* 모서리 둥글게 */
 .form-rounded {
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 
 .ml-5 {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .original-link-Helper {
-    color: white;
+  color: white;
 }
 
 .Divider {
-    width: 5px;
-    height: auto;
-    display: inline-block;
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
+.ShortenButtons {
+  margin-top: 1em;
 }

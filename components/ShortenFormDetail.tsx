@@ -18,7 +18,7 @@ export default function ShortenFormDetail(props: any) {
     statistics_open: 1,
   });
 
-  function onChange(event) {
+  function onChange(event: any) {
     const { value, name } = event.target;
     console.log('On Change Short Detail ==> ', ShortDetail);
     setShortDetail({
@@ -28,7 +28,7 @@ export default function ShortenFormDetail(props: any) {
     props.onChange(ShortDetail);
   }
 
-  function onExpiryChange(_obj, str, fp) {
+  function onExpiryChange(_obj: any, str: any, fp: any) {
     setShortDetail({
       ...ShortDetail,
       link_expiry: _obj,
@@ -95,7 +95,7 @@ export default function ShortenFormDetail(props: any) {
               data-enable-time
               name="link_expiry"
               onChange={onExpiryChange}
-              ref={fp}
+              // refObject={fp}
               options={{
                 onReady(_dObj, _dStr, fp) {
                   fp.close();

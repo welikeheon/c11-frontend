@@ -32,7 +32,7 @@ export const getStaticProps: GetStaticProps = async () => {
   // const res = await fetch();
   // const posts = await res.json();
 
-  const posts: INoticeContents = [
+  const posts: INoticeContents[] = [
     {
       id: 34,
       title: '서비스에 대한 문의사항은 이메일로 연락주세요.',

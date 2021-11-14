@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -14,7 +14,7 @@ const Create = ({ action = '/create' }) => {
   const router = useRouter();
   const [ResultUrl] = useState(router.query.original_url);
 
-  function handleChangeResultURL(e) {
+  function handleChangeResultURL(e: any) {
     e.preventDefault();
   }
 
